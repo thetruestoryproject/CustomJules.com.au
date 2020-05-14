@@ -1,7 +1,10 @@
 body {
     background-color: #c6d7de;
     font-family: 'Montserrat';
-    padding: 3em;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
 }
 
 #v0 {
@@ -31,7 +34,7 @@ h1 {
     font-size: 3em;
     background: #fff;
     display: inline-block;
-    padding: 150px;
+    padding: 10px 15px;
     border-radius: 5px;
     margin: 0;
 }
