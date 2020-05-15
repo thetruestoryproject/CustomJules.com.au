@@ -43,7 +43,12 @@ h1 {
     border-radius: 5px;
     margin: 0;
 }
-p { font-size: 1.5em; }
+p { 
+    font-size: 1.5em;
+    background: #525b6b;
+    padding: 5px 7px;
+    border-radius: 5px;
+  }
 
 section:nth-of-type(1) {
     height: 1200px;
