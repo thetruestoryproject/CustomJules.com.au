@@ -10,12 +10,14 @@ body {
 }
 /*the video needs to get replaced in the future with one that suits the workstyle
 */ 
+/*
 #v0 {
     position: fixed;
     bottom: 0;
     right: 0;
     width: 70%;
 }
+*/
 
 #set-height {
     display: block;
