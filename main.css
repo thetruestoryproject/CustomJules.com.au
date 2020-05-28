@@ -61,7 +61,32 @@ pre {
     nav:nth-of-type(1) {
       text-align: right;
       margin-block-start: 0px;
+      font-size: 22px;
     }
+
+/*links*/
+
+    a:link {
+      color: black;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:visited {
+      color: black;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:hover {
+      color:black;
+      background-color: transparent;
+      text-decoration: line-through;
+    }
+    a:active {
+      color: blue;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
 /* h2 */
 
 h2:nth-of-type(1) {
@@ -622,4 +647,4 @@ footer {
   }
 }
 
-        
+    
