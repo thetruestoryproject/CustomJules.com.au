@@ -1,424 +1,428 @@
 
 body {
 
-    background-image: url("Background 2.jpg");
-    position: fixed;
-    background-color: #e6e7e4;
-    height: 9500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 1920px, 6000px;
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    width: auto;
-    border: 5px; 
-    padding: 0px 100px;
-    margin: 0 auto;
-  }
-    
+  background-image: url("Background 4.jpg");
+  position: fixed;
+  background-color: #e6e7e4;
+  height: 7400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 500px, 6000px;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  width: auto;
+  border: 5px; 
+  padding: 0px 100px;
+  margin: 0 auto;
+}
   
-  h1 {
-    font-size: 3em;
-    /* background: #fff;*/
-    display: inline-block;
-    padding: 10px 15px;
-    border-radius: 30px;
-    margin: 0;
-  }
+
+h1 {
+  font-size: 3em;
+  /* background: #fff;*/
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 30px;
+  margin: 0;
+}
+
+p { 
+ /* background: #ffffffee;*/
+  padding: 0px 15px;
+  border-radius: 30px;
+}
+
+pre { 
+  font-size: 1.5em;
+  /* background: #ffffffee;*/
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+
+
+
   
-  p { 
-   /* background: #ffffffee;*/
-    padding: 0px 15px;
-    border-radius: 30px;
-  }
   
-  pre { 
-    font-size: 1.5em;
-    /* background: #ffffffee;*/
-    padding: 10px 15px;
-    border-radius: 30px;
-  }
-  
-  
-  
-    
-    
-    /* header */
-  
-    header {
-        background-color: #e6e7e4;
-        padding: 30px 30px 0px 30px;
-        text-align: right;
-        font-size: 50px;
-        color: #bc2526;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-      }
-  
-  /* navigation bar */
-  
-      nav:nth-of-type(1) {
-        text-align: right;
-        margin-block-start: 0px;
-        font-size: 22px;
-      }
-  
-  /*links*/
-  
-      a:link {
-        color: black;
-        background-color: transparent;
-        text-decoration: none;
-      }
-      a:visited {
-        color: black;
-        background-color: transparent;
-        text-decoration: none;
-      }
-      a:hover {
-        color:black;
-        background-color: transparent;
-        text-decoration: line-through;
-      }
-      a:active {
-        color: blue;
-        background-color: transparent;
-        text-decoration: none;
-      }
-  
-  /* h2 */
-  
-  h2:nth-of-type(1) {
-        margin-block-end: 0px;
-      }
-      
-  /* section */
-  
-  section:nth-of-type(1) {
-        height: 400px;
-        font-size: 20px;
-      }
-      section:nth-of-type(2) {
-        height: 1000px;
-        font-size: 1.5em;
-  
-      }
-      section:nth-of-type(3) {
-        height: 1520px;
-        text-align: center ;
-      }
-  
-    
-  
-  /* other */
-  
-  #set-height {
-        display: block;
-    }
-    /*
-    section {
-        z-index: 1;
-        position: relative;
-    }
-  */
-    .content {
+  /* header */
+
+  header {
+      background-color: #e6e7e4;
+      padding: 30px 30px 0px 30px;
+      text-align: right;
+      font-size: 50px;
+      color: #bc2526;
       font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
     }
-  
-  /*  article  */
-  
-  .one  {
-    font-size: 20px;
-    position: relative;
-    top: 200px;
-    float: left;
-    text-align: right;
-    padding: 50px;
-    width: 40%;
-    height: 420px;
-   
-  }
-  
-  .two  {
-    font-size: 20px;
-    position: relative;
-    float: right;
-    text-align: left;
-    padding: 50px;
-    width: 40%;
-    height: 310px;
-   
-  }
-  
-  .three  {
-    font-size: 20px;
-    position: relative;
-    top: 200px;
-    float: left;
-    text-align: right;
-    padding: 50px;
-    width: 40%;
-    height: 220px;
-   
-  }
-  
-  .four  {
-    font-size: 20px;
-    position: relative;
-    float: right;
-    text-align: left;
-    padding: 50px;
-    width: 40%;
-    height: 320px;
-   
-  }
-  
-  .five  {
-    font-size: 20px;
-    position: relative;
-    top: 200px;
-    float: left;
-    text-align: right;
-    padding: 50px;
-    width: 40%;
-    height: 320px;
-   
-  }
-  
-  .six  {
-    font-size: 20px;
-    position: relative;
-    float: right;
-    text-align: left;
-    padding: 50px;
-    width: 40%;
-    height: 330px;
-   
-  }
-  
-  .seven  {
-    font-size: 20px;
-    position: relative;
-    top: 200px;
-    float: left;
-    text-align: right;
-    padding: 50px;
-    width: 40%;
-    height: 310px;
-   
-  }
-  
-  .eight  {
-    font-size: 20px;
-    position: relative;
-    float: right;
-    text-align: left;
-    padding: 50px;
-    width: 40%;
-    height: 270px;
-  
-  }
-  
-  .nine  {
-    font-size: 20px;
-    position: relative;
-    top: 200px;
-    float: left;
-    text-align: right;
-    padding: 50px;
-    width: 40%;
-    height: 440px;  
-   
-  }
-  
-  .ten  {
-    font-size: 20px;
-    position: relative;
-    float: right;
-    text-align: left;
-    padding: 50px;
-    width: 40%;
-    height: 400px;  
-   
-  }
-  
-  .eleven  {
-    font-size: 20px;
-    position: relative;
-    top: 200px;
-    float: left;
-    text-align: right;
-    padding: 50px;
-    width: 40%;
-    height: 300px;
-  
-  }
-  
-  .twelve  {
-    font-size: 20px;
-    position: relative;
-    float: right;
-    text-align: left;
-    padding: 50px;
-    width: 40%;
-    height: 380px;
-  
-  }
-  
-  .thirteen  {
-    font-size: 20px;
-    position: relative;
-    top: 200px;
-    float: left;
-    text-align: right;
-    padding: 50px;
-    width: 40%;
-    height: 180px;
-   
-  }
-  
-  .fourteen  {
-    font-size: 20px;
-    position: relative;
-    float: right;
-    text-align: left;
-    padding: 50px;
-    width: 40%;
-    height: 520px;
-  
-  }
-  
-  .fithteen  {
-    font-size: 20px;
-    position: relative;
-    top: 200px;
-    float: left;
-    text-align: right;
-    padding: 50px;
-    width: 40%;
-    height: 240px;
+
+/* navigation bar */
+
+    nav:nth-of-type(1) {
+      text-align: right;
+      margin-block-start: 0px;
+      font-size: 22px;
+    }
+
+/*links*/
+
+    a:link {
+      color: black;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:visited {
+      color: black;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:hover {
+      color:black;
+      background-color: transparent;
+      text-decoration: line-through;
+    }
+    a:active {
+      color: blue;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+/* h2 */
+
+h2:nth-of-type(1) {
+      margin-block-end: 0px;
+    }
     
+/* section */
+
+section:nth-of-type(1) {
+      height: 600px;
+      font-size: 20px;
+    }
+    section:nth-of-type(2) {
+      height: 1030px;
+      font-size: 1.5em;
+
+    }
+
+  
+
+/* other */
+
+#set-height {
+      display: block;
   }
-  
-  .sixteen  {
-    font-size: 20px;
-    position: relative;
-    float: right;
-    text-align: left;
-    padding: 50px;
-    width: 40%;
-    height: 260px;
-  
+  /*
+  section {
+      z-index: 1;
+      position: relative;
   }
-  
-  .seventeen  {
-    font-size: 20px;
-    position: relative;
-    top: 200px;
-    float: left;
-    text-align: right;
-    padding: 50px;
-    width: 40%;
-    height: 260px;
-   
+*/
+  .content {
+    font-family: Arial, Helvetica, sans-serif;
   }
-  
-  .eighteen  {
-    font-size: 20px;
-    position: relative;
-    float: right;
-    text-align: left;
-    padding: 50px;
-    width: 40%;
-    height: 240px;
-  
-  }
-  
-  .nineteen  {
-    font-size: 20px;
-    position: relative;
-    top: 200px;
-    float: left;
-    text-align: right;
-    padding: 50px;
-    width: 40%;
-    height: 500px;
-  
-  }
-  
-  .twenty  {
-    font-size: 20px;
-    position: relative;
-    float: right;
-    text-align: left;
-    padding: 50px;
-    width: 40%;
-    height: 170px;
-  
-  
-  
-  }
-  
+
+/*  article  */
+
+.one  {
+  font-size: 20px;
+  position: relative;
+  top: 270px;
+  float: left;
+  text-align: right;
+  padding: 50px;
+  width: 40%;
+  height: 420px;
  
+}
+
+.two  {
+  font-size: 20px;
+  position: relative;
+  float: right;
+  text-align: left;
+  padding: 50px;
+  width: 40%;
+  height: 310px;
+ 
+}
+
+.three  {
+  font-size: 20px;
+  position: relative;
+  top: 320px;
+  float: left;
+  text-align: right;
+  padding: 50px;
+  width: 40%;
+  height: 230px;
+ 
+}
+
+.four  {
+  font-size: 20px;
+  position: relative;
+  top: 90px;
+  float: right;
+  text-align: left;
+  padding: 50px;
+  width: 40%;
+  height: 330px;
+ 
+}
+
+.five  {
+  font-size: 20px;
+  position: relative;
+  top: 360px;
+  float: left;
+  text-align: right;
+  padding: 50px;
+  width: 40%;
+  height: 320px;
+ 
+}
+
+.six  {
+  font-size: 20px;
+  position: relative;
+  top: 130px;
+  float: right;
+  text-align: left;
+  padding: 50px;
+  width: 40%;
+  height: 330px;
+ 
+}
+
+.seven  {
+  font-size: 20px;
+  position: relative;
+  top: 380px;
+  float: left;
+  text-align: right;
+  padding: 50px;
+  width: 40%;
+  height: 310px;
+ 
+}
+
+.eight  {
+  font-size: 20px;
+  position: relative;
+  top: 200px;
+  float: right;
+  text-align: left;
+  padding: 50px;
+  width: 40%;
+  height: 270px;
+
+}
+
+.nine  {
+  font-size: 20px;
+  position: relative;
+  top: 480px;
+  float: left;
+  text-align: right;
+  padding: 50px;
+  width: 40%;
+  height: 440px;  
+ 
+}
+
+.ten  {
+  font-size: 20px;
+  position: relative;
+  top: 230px;
+  float: right;
+  text-align: left;
+  padding: 50px;
+  width: 40%;
+  height: 400px;  
+ 
+}
+
+.eleven  {
+  font-size: 20px;
+  position: relative;
+  top: 550px;
+  float: left;
+  text-align: right;
+  padding: 50px;
+  width: 40%;
+  height: 300px;
+
+}
+
+.twelve  {
+  font-size: 20px;
+  position: relative;
+  top: 310px;
+  float: right;
+  text-align: left;
+  padding: 50px;
+  width: 40%;
+  height: 380px;
+
+}
+
+.thirteen  {
+  font-size: 20px;
+  position: relative;
+  top: 600px;
+  float: left;
+  text-align: right;
+  padding: 50px;
+  width: 40%;
+  height: 180px;
+ 
+}
+
+.fourteen  {
+  font-size: 20px;
+  position: relative;
+  top: 390px;
+  float: right;
+  text-align: left;
+  padding: 50px;
+  width: 40%;
+  height: 520px;
+
+}
+
+.fithteen  {
+  font-size: 20px;
+  position: relative;
+  top: 650px;
+  float: left;
+  text-align: right;
+  padding: 50px;
+  width: 40%;
+  height: 240px;
   
-  .return2top {
+}
+
+.sixteen  {
+  font-size: 20px;
+  position: relative;
+  top: 460px;
+  float: right;
+  text-align: left;
+  padding: 50px;
+  width: 40%;
+  height: 260px;
+
+}
+
+.seventeen  {
+  font-size: 20px;
+  position: relative;
+  top: 660px;
+  float: left;
+  text-align: right;
+  padding: 50px;
+  width: 40%;
+  height: 260px;
+ 
+}
+
+.eighteen  {
+  font-size: 20px;
+  position: relative;
+  top: 510px;
+  float: right;
+  text-align: left;
+  padding: 50px;
+  width: 40%;
+  height: 240px;
+
+}
+
+.nineteen  {
+  font-size: 20px;
+  position: relative;
+  top: 740px;
+  float: left;
+  text-align: right;
+  padding: 50px;
+  width: 40%;
+  height: 500px;
+
+}
+
+.twenty  {
+  font-size: 20px;
+  position: relative;
+  top: 550px;
+  float: right;
+  text-align: left;
+  padding: 50px;
+  width: 40%;
+  height: 170px;
+
+
+
+}
+
+
+
+.return2top {
+text-align: center;
+color: #e6e7e446;
+}
+
+footer {
   text-align: center;
-  color: #e6e7e446;
+}
+
+
+
+
+
+
+
+
+/**
+ * ----------------------------------------
+ * animation text-focus-in
+ * ----------------------------------------
+ */
+
+ .text-focus-in {
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 250ms both;
+          animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 250ms both;
+}
+
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
   }
-  
-  footer {
-    text-align: center;
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  /**
-   * ----------------------------------------
-   * animation text-focus-in
-   * ----------------------------------------
-   */
-  
-   .text-focus-in {
-    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 250ms both;
-            animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 250ms both;
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
   }
-  
-  
-  @-webkit-keyframes text-focus-in {
-    0% {
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
   }
-  @keyframes text-focus-in {
-    0% {
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
-  }
-  
-  
-  
-  
-  
-  
-  
-  
+}
+
+
+
+
+
+
+
