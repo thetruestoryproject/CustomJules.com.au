@@ -1,13 +1,13 @@
 
 body {
 
-    background-image: url("");
+    background-image: url("Work-Page.jpg");
     position: fixed;
     background-color: #e6e7e4;
-    height: 900px;
+    height: 3000px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1920px, 60px;
+    background-size: 1920px;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -87,6 +87,8 @@ body {
         text-decoration: none;
       }
   
+
+
   /* h2 */
   
   h2:nth-of-type(1) {
