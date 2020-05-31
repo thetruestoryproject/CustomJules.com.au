@@ -18,15 +18,25 @@ body {
   }
     
   
-  h1 {
-    font-size: 3em;
-    /* background: #fff;*/
-    display: inline-block;
-    padding: 10px 15px;
-    border-radius: 30px;
-    margin: 0;
-  }
-  
+ 
+
+h1 {
+  font-size: 1.7em;
+  /* background: #fff;*/
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 30px;
+  margin: 0;
+}
+
+h5 {
+  font-size: 3em;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 30px;
+  margin: 0;
+}
+
   p { 
    /* background: #ffffffee;*/
     padding: 0px 15px;
