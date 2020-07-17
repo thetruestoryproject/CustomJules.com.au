@@ -216,7 +216,11 @@ section:after {
 }
 
 .mySlides {
+  background-color: #555;
+  border-style: solid;
+  border-color:#555;
   display: none;
+  color: white;
 }
 
 .cursor {
@@ -345,6 +349,7 @@ img.hover-shadow {
   color: white;
   transform: rotateY(180deg);
 }
+
 
 
 
