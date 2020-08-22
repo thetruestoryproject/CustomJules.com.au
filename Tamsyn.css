@@ -237,6 +237,7 @@ section:after {
   padding: 16px;
   margin-top: -50px;
   color: white;
+  background-color: rgba(172, 172, 172, 0.24);
   font-weight: bold;
   font-size: 20px;
   transition: 0.6s ease;
