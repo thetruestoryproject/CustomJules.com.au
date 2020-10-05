@@ -139,6 +139,18 @@ section:after {
   padding: 10px;
 }
 
+
+.content p {
+  width: auto;
+  height: 50px;
+  font-size: 120%;
+}
+
+.content h4 {
+  width: auto;
+  height: 25px;
+}
+
 /* The "show" class is added to the filtered elements */
 .show {
   display: block;

@@ -137,6 +137,18 @@ section:after {
 .content {
   background-color: rgb(221, 221, 221);
   padding: 10px;
+  text-align: center;
+}
+
+.content p {
+  width: auto;
+  height: 50px;
+  font-size: 120%;
+}
+
+.content h4 {
+  width: auto;
+  height: 25px;
 }
 
 /* The "show" class is added to the filtered elements */
