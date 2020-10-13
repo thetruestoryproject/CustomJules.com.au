@@ -38,7 +38,6 @@ p {
 }
 
 
-
   /* header */
 
   header {
@@ -229,7 +228,11 @@ section:after {
 }
 
 .mySlides {
+  background-color: #555;
+  border-style: solid;
+  border-color:#555;
   display: none;
+  color: white;
 }
 
 .cursor {
@@ -302,10 +305,7 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-
-
+  }
 
 
 
@@ -362,17 +362,6 @@ img.hover-shadow {
   color: white;
   transform: rotateY(180deg);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -551,4 +540,25 @@ img.hover-shadow {
   font-size: 2em;
   text-align: center;
   font-family: HP Simplified, Bold, Italic;
+}
+
+
+
+
+
+/**
+ * ----------------------------------------
+ * animation flip-vertical-fwd
+ * ----------------------------------------
+ */
+ 
+@keyframes flip-vertical-fwd {
+  0% {
+    -webkit-transform: translateZ(0) rotateY(0);
+            transform: translateZ(0) rotateY(0);
+  }
+  100% {
+    -webkit-transform: translateZ(160px) rotateY(180deg);
+            transform: translateZ(160px) rotateY(180deg);
+  }
 }
