@@ -1,7 +1,7 @@
   
 body {
 
-  background-color: rgb(247, 247, 236);
+  background-color: rgba(202, 236, 243, 0.808);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   width: auto;
@@ -135,7 +135,7 @@ section:after {
 
 /* Content */
 .content {
-  background-color: rgb(221, 221, 221);
+  background-color: rgb(226, 226, 226);
   padding: 10px;
   text-align: center;
 }
@@ -362,5 +362,5 @@ img.hover-shadow {
   transform: translate(-50%, -50%);
   font-size: 2em;
   text-align: center;
-  font-family: HP Simplified, Bold, Italic;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }

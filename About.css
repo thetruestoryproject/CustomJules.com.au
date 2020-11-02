@@ -131,7 +131,8 @@ input[type=submit]:hover {
 /* Style the container/contact section */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  margin: 12px;
+  background-color: #e4e4e4;
   padding: 10px;
 }
 
