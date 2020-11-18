@@ -498,5 +498,26 @@ img.hover-shadow {
   transform: translate(-50%, -50%);
   font-size: 2em;
   text-align: center;
-  font-family: HP Simplified, Bold, Italic;
+  font-family:"Arial Black", Gadget, sans-serif
+}
+
+
+
+
+
+/**
+ * ----------------------------------------
+ * animation flip-vertical-fwd
+ * ----------------------------------------
+ */
+ 
+ @keyframes flip-vertical-fwd {
+  0% {
+    -webkit-transform: translateZ(0) rotateY(0);
+            transform: translateZ(0) rotateY(0);
+  }
+  100% {
+    -webkit-transform: translateZ(160px) rotateY(180deg);
+            transform: translateZ(160px) rotateY(180deg);
+  }
 }
