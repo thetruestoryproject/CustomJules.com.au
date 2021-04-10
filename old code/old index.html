@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Caveat Brush' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blue Props |</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="description" content="Just a general blog page of where I am with my ongoing studyies. It also helps me with wrighting and understanding code">
+    <meta name="author" content="Jules Bisschoff">
+    <meta name="keywords" content="props nida NIDA Nida Props Building Jules Bisschoff JulesBisschoff jules bisschoff">
+    <link rel="icon" href="pics/Logo.png">
+
+</head>
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
+
+<body>
+
+    <!-- header -->
+
+
+     <section> 
+      <div class="topnav">
+        <a class="active"><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span></a>
+        <a href="index.html"         ><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="#"                  ><i class="fa fa-fw fa-search"></i> Search</a>
+
+
+        <div class="topnav-right">
+        <a href="About.html"                  ><i class="fa fa-fw fa-envelope"></i> Contact</a>
+        <b ><img src="pics/logo 2.png" alt="jules bisschoff" width=65/></b>
+        </div>
+
+        <div class="topnav-centered">
+                <a>Jules Bisschoff</a>
+        </div>
+      </div>
+     </section>
+    
+
+
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
+
+<!-- navagation bar -->
+
+
+<section>
+
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html"       ><i class="fa fa-fw fa-home"></i> Home</a>
+      <a href="timber.html"      >Timber</a>
+      <a href="metal.html"       >Metal</a>
+      <a href="Paper.html"       >Paper props</a>
+      <a href="CAD.html"         >Cad Drawings</a>
+      <a href="fabric.html"      >Fabric</a>
+      <a href="Molds.html"       >Molding and Casting</a>
+      <a href="Other.html"       >Other</a>
+      <a href="Photos.html"      >Production Photos</a>
+      <a href="About.html"       >About</a>
+      <a href="About.html"     ><i class="fa fa-fw fa-envelope"></i>contact</a>
+    </div>
+        
+            
+      
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
+
+  <!--  body  -->
+
+  <div class="main">
+
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('meterial')"> Meterial</button>
+      <button class="btn" onclick="filterSelection('photos')"> Photos</button>
+      <button class="btn" onclick="filterSelection('people')"> People</button>
+    </div>
+
+  <!-- Portfolio Gallery Grid -->
+<div class="row">
+  <!-------------->
+  
+  
+
+  <div class="column meterial">
+    <div class="content">
+      <a href="Other.html" ><img src="pics/other/Worrior 2.jpg"  width=100% class="hover-shadow cursor"/></a>
+      <h4>Highlights</h4>
+    </div>
+  </div>
+  
+  <div class="column meterial">
+    <div class="content">
+      <a href="timber.html" ><img src="pics/timber/chess board/10.jpg"  style="width:100%" class="hover-shadow cursor"/></a>
+      <h4>Timber</h4>
+    </div>
+  </div>
+
+  <div class="column meterial">
+    <div class="content">
+      <a href="metal.html" ><img src="pics/metal/ring 2.jpg"  style="width:100%" class="hover-shadow cursor"/></a>
+      <h4>Metal</h4>
+    </div>
+  </div>
+
+  <div class="column meterial">
+    <div class="content">
+      <a href="Paper.html" ><img src="pics/paper props/paper mug.jpg"  width=100% class="hover-shadow cursor"/></a>
+      <h4>Paper Props</h4>
+    </div>
+  </div>
+  
+  <div class="column meterial">
+    <div class="content">
+      <a href="#" ><img src="pics/Cad/CAD 2.jpg"  width=100% class="hover-shadow cursor"/></a>
+      <h4>CAD</h4>
+    </div>
+  </div>
+
+  <div class="column meterial">
+    <div class="content">
+      <a href="fabric.html" ><img src="pics/fabrics/draping finished 2.jpg"  width=100% class="hover-shadow cursor"/></a>
+      <h4>Fabric</h4>
+    </div>
+  </div>
+
+  <div class="column meterial">
+    <div class="content">
+      <a href="Molds.html" ><img src="pics/other/hand cast.jpg"  width=100% class="hover-shadow cursor"/></a>
+      <h4>Molding and Casting</h4>
+    </div>
+  </div>
+
+  <div class="column photos">
+    <div class="content">
+      <a href="#" ><img src="pics/production photos/high school.jpg"  width=100% class="hover-shadow cursor"/></a>
+      <h4>Production photos</h4>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      <a href="About.html"><img src="pics/Jules/jules 3.jpg"  width=100% class="hover-shadow cursor"/></a>
+      <h4>Contact Jules</h4>
+    </div>
+  </div>
+
+ 
+
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
+
+</html>
+
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
+
+
+<!--javascript-->
+
+
+
+
+<script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
+
+
+
+
+
+<script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+        
+        for (i = 0; i < dropdown.length; i++) {
+          dropdown[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var dropdownContent = this.nextElementSibling;
+          if (dropdownContent.style.display === "block") {
+          dropdownContent.style.display = "none";
+          } else {
+          dropdownContent.style.display = "block";
+          }
+          });
+        }
+        </script>
+
+
+
+
+<!--  image layout  -->
+
+
+<script>
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("column");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+  
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+  }
+  
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  
+  
+  // Add active class to the current button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  </script>

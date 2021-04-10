@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Caveat Brush' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blue Props |</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="description" content="Movie, Theatre and Advertisment Props and SFX">
+    <meta name="author" content="Jules Bisschoff">
+    <meta name="keywords" content="props nida NIDA Nida Props Building Jules Bisschoff JulesBisschoff jules bisschoff">
+    <link rel="icon" href="pics/Logo.png">
+
+</head>
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
+
+<body>
+
+     <section> 
+      <div class="topnav">
+        <b ><img src="pics/logo 2.png" alt="jules bisschoff" width=65/></b>
+        <a href="index.html">Jules Bisschoff</a>
+
+
+        <div class="topnav-right">
+        <a href="About.html"         > About    </a>
+        <a href="Portfolio.html"         > Portfolio</a>
+        </div>
+
+    
+        </div>
+      </div>
+     </section>
+    
+<!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
+
+<header>
+  <h2>Portfolio</h2>
+</header>
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
+
+  <!--  body  -->
+
+
+
+
+
+
+  
+  <div class="main">
+
+    <div id="myBtnContainer">
+      <button class="btn" onclick="filterSelection('ALL')"> ALL</button>
+      <button class="btn" onclick="filterSelection('LARGE_SCALE')"> LARGE SCALE</button>
+      <button class="btn" onclick="filterSelection('MINITURE')"> MINITURE</button>
+      <button class="btn" onclick="filterSelection('REPLICAS')"> REPLICAS</button>
+
+    </div>
+
+  <!-- Portfolio Gallery Grid -->
+<div class="row">
+  <!-------------->
+
+  <div class="column LARGE_SCALE">
+    <div class="content">
+      <a href="worrior.html" ><img src="pics/other/Worrior 2.jpg" width="100%"  class="hover-shadow cursor"/></a>
+      <h3>Hero Suit</h3>
+    </div>
+  </div>
+
+  <div class="column LARGE_SCALE">
+    <div class="content">
+      <a href="OVA_Sessel.html" ><img src="pics/other/chair 1.jpg"  width=100% class="hover-shadow cursor"/></a>
+      <h3>OVA Sessel (Chair Replica)</h3>
+    </div>
+  </div>
+  
+  <div class="column LARGE_SCALE MINITURE">
+    <div class="content">
+      <a href="#" ><img src="pics/Poly Sculpt/Baba Yaga's house.jpg"  width=100% class="hover-shadow cursor"/></a>
+      <h3>Baba Yaga's House</h3>
+    </div>
+  </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+
+
+<footer>
+
+
+  <div class=" footer-top">
+      <p>Follow us<br>
+        instagram</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    COPYRIGHT 2021 BLUE PROPS  .  ALL RIGHTS RESERVED
+  </div>
+
+</footer>
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
+
+</html>
+
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
+
+
+<!--javascript-->
+
+
+
+
+
+
+
+
+<script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+        
+        for (i = 0; i < dropdown.length; i++) {
+          dropdown[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var dropdownContent = this.nextElementSibling;
+          if (dropdownContent.style.display === "block") {
+          dropdownContent.style.display = "none";
+          } else {
+          dropdownContent.style.display = "block";
+          }
+          });
+        }
+        </script>
+
+
+
+
+<!--  image layout  -->
+
+
+<script>
+  filterSelection("ALL")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("column");
+    if (c == "ALL") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+  
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+  }
+  
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  
+  
+  // Add active class to the current button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  </script>
