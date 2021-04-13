@@ -34,95 +34,130 @@
    </div>
   </section>
     
-<!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
 
-<header>
-  <h2>Portfolio</h2>
-</header>
 
-<!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
+
+  <!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
+
+  <header>
+   <h2>Portfolio</h2>
+  </header>
+
+  <!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
+
+
+
+
+
 
   <!--  body  -->
 
   <div class="main">
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <!-------------->
 
-    
-
-  <!-- Portfolio Gallery Grid -->
-<div class="row">
-  <!-------------->
-  
-
-
-<div class="container">
-    <div style="text-align:center">
-      <h1>Hero Suit</h1>
+      <div class="container">
+        <div style="text-align:center">
+          <h1>Hero Suit</h1>
       
 
    
-      <!-- Slideshow container -->
-      <div class="row">
-<div class="slideshow-container row column1">
+          <!-- Slideshow container -->
+          <div class="row">
+            <div class="column1">
 
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 2</div>
-    <img src="pics/other/worrior 1.jpg" style="width:100%">
-    <div class="text"></div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 2</div>
-    <img src="pics/other/Worrior 2.jpg" style="width:100%">
-    <div class="text"></div>
-  </div>
+              <!-- Full-width images with number and caption text -->
+              <div class="fade">
+                <img src="pics/other/worrior 1.jpg" style="width:100%">
+              </div>
 
 
+              <div class="row">
+                <div class="column3">
+                  <img src="pics/other/worrior 1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                </div>
+                <div class="column3">
+                  <img src="pics/other/Worrior 2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                </div>
+    
+              </div>
+           
+              
+
+              <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+
+                  <div class="mySlides responsive">
+                    <div class="numbertext">1 / 2</div>
+                    <img src="pics/other/worrior 1.jpg" style="width:100%;">
+                  </div>
+            
+                  <div class="mySlides responsive">
+                    <div class="numbertext">2 / 2</div>
+                    <img src="pics/other/Worrior 2.jpg" style="width:100%;">
+                  </div>
+            
+                
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+                  <div class="caption-container">
+                    <p id="caption"></p>
+                  </div>
+            
+            
+                  <div class="column3">
+                    <img class="demo cursor" src="pics/other/worrior 1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Pose 1">
+                  </div>
+                  <div class="column3">
+                    <img class="demo cursor" src="pics/other/Worrior 2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Pose 2">
+                  </div>
+                </div>
+              </div>
+            </div>
 
 
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
 
 
-<div class="column2">
-  <h3>
-    This project is another one done during my first year at NIDA. 
-    It was a group project where you had to manage one element such as the underbodies or tool belt while assisting on everything eles.
-    The backpack which is not seen in this photo is a futuristic terieum with glowing mushrooms. 
-    the sword and visor also light up using controliable LEDs.
-  </h3>
-  
-</div>
+            <div class="column2">
+              <h3>
+              This project is another one done during my first year at NIDA. 
+              It was a group project where you had to manage one element such as the under-suit or tool belt while assisting on everything eles.
+              The backpack which is not seen in this photo is a futuristic terieum with glowing mushrooms. 
+              The sword and visor also light up using adressiable LEDs and an ardunio inside the backpack.
+              </h3>
+            </div>
 
 
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <div class="column1">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-</div>
 
-
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-
-
-
-
-<!-- END GRID -->
-</div>
-
-<!-- END MAIN -->
-</div>
-
 </body>
 
 <!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
@@ -238,3 +273,45 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
+
+
+
+
+<script>
+  function openModal() {
+    document.getElementById("myModal").style.display = "block";
+  }
+  
+  function closeModal() {
+    document.getElementById("myModal").style.display = "none";
+  }
+  
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
