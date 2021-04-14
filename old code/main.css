@@ -57,14 +57,6 @@ p {
 /* photos */
 
 
-footer {
-  background-color: white;
-  padding: 10px;
-  text-align: center;
-  color: rgb(0, 0, 0);
-  font-size: 1.5em;
-}
-
 
 
 
@@ -364,6 +356,44 @@ img.hover-shadow {
   font-family:"Arial Black", Gadget, sans-serif
 }
 
+
+
+footer {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+}
+
+
+.footer-top {
+  background-color:rgb(29, 29, 29);
+  padding: 20px;
+}
+
+.footer-bottom {
+  text-align: center!important;
+  background-color:rgb(0, 0, 0);
+  padding: 20px;
+  color: #bbb;
+}
+
+.fa-instagram {
+  background: #0a1392be;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 100px;
+  width: 64px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
 
 
 
