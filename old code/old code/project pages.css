@@ -1,0 +1,645 @@
+  
+body {
+
+  background-color: rgba(255, 255, 255, 0.90);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  width: auto;
+  border: 5px; 
+  padding: 0px 0px;
+  margin: 0 auto;
+}
+
+
+h1 {
+  font-size: 2.7em;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 30px;
+  margin: 0;
+}
+
+h3 {
+  margin-bottom: 5px;
+  margin-top: 15px;
+  color: #303233;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  outline: 0;
+  text-decoration: none;
+
+}
+
+h4 { 
+  font-size: 14px;
+  margin: 2px;
+}
+
+h5 {
+  font-size: 3em;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 30px;
+  margin: 0;
+}
+
+p { 
+  padding: 0px 15px;
+  border-radius: 30px;
+
+}
+
+
+
+ header {
+    background-color: rgb(0, 0, 0);
+    padding: 10px 30px 30px 30px;
+    text-align: left;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.90);
+}
+
+
+
+    h2:nth-of-type(1) {
+      margin-block-end: 0px;
+    }
+
+/* photos */
+
+
+footer {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+}
+
+
+
+
+/* Style the list inside the menu */
+nav ul  {  list-style-type: none;}
+article {  width: 100%;}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*---------------------------------------------------------------------------------*/
+
+/* photo layout */
+
+
+
+
+/* Center website */
+.main {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.row {
+  margin: 10px 0px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 0.5%;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 32.333%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: rgba(226, 226, 226, 0);
+  padding: 10px;
+  text-align: center;
+}
+
+
+.content p {
+  width: auto;
+  height: 50px;
+  font-size: 120%;
+}
+
+.content h4 {
+  width: auto;
+  height: 20px;
+}
+
+.show {
+  display: block;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+
+}
+
+.btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(25, 0, 255);
+}
+
+.btn.active {
+  background-color: rgb(255, 255, 255);
+  color: rgb(25, 0, 255);
+}
+
+
+
+
+
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*----------------------------------------------------------------------------
+
+    /*    */
+
+/*-----------------------------------------------------------------------------*/
+
+/* side bar */
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+/*-------------------------------------------------------------------------------*/
+
+/*messages*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  margin: 12px;
+  background-color: rgba(255, 255, 255, 0.90);
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column1 {
+  float: left;
+  width: 60%;
+  margin-top: 6px;
+}
+
+.column2{
+  float: left;
+  width: 40%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.column3{
+  float: left;
+  width: 13%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+
+/*---------------------------------------------------------------------------------*/
+
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*-----------------------------------------------------------------------------*/
+/* top nav bar */
+
+.topnav {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.topnav a {
+  float: left;
+  color: #3d3d3d;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav b {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgba(221, 221, 221, 0);
+  color: rgb(25, 0, 255);
+}
+
+.topnav a.active {
+  background-color: rgba(221, 221, 221, 0);
+  color: rgb(25, 0, 255);
+}
+
+.topnav-right {
+  float: right;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  text-align: center;
+  font-family:"Arial Black", Gadget, sans-serif
+}
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------*/
+
+/* flip image */
+
+.flip-box {
+  background-color: transparent;
+  width: 100%;
+  padding-top: 100%;
+  /*
+  height: 428px;*/
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  position: relative;
+}
+
+.flip-box-inner {
+  /*
+  position: relative;*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: #555;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+/*------------------------------------------*/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev {
+  cursor: pointer;
+ 
+  top: 50%;
+  left: 20px;
+  width: auto;
+  position: absolute;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.next {
+  cursor: pointer;
+ 
+  top: 50%;
+  right: 20px;
+  width: auto;
+  position: absolute;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Position the "next button" to the right */
+.next {
+
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  position: absolute;
+  bottom: 25px;
+  width: relative;
+  text-align: center;
+  background-color: #555555;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #000000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  background-color: #f2f2f270;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 10px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #d3d3d3;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1000px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+}
+

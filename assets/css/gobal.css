@@ -1,0 +1,79 @@
+
+.header {
+    background-color: rgb(0, 0, 0);
+    padding: 10px 30px 30px 30px;
+    text-align: left;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.title {
+    height: 80px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-top {
+    background-color:rgb(29, 29, 29);
+    padding: 20px;
+    font-size: 1.5em;
+    text-shadow:2px 2px 4px #000000;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+  
+.footer-bottom {
+    text-align: center!important;
+    background-color:rgb(0, 0, 0);
+    padding: 20px;
+    color: rgb(233, 233, 233);
+}
+
+
+.fa-instagram {
+    background:  #091392c0;
+    color: white;
+}
+  
+.fa {
+    padding: 20px;
+    font-size: 100px;
+    width: 64px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.column {
+    display: flex;
+    align-items: baseline;
+}
+
+.page-left {
+    padding: 40px;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-right {
+    padding: 20px;
+    padding-right: 20%;
+    height: 1000px;
+    max-width: 700px;
+    max-width: 50%;
+}
+
+.big_pic {
+    width: 100%;
+}

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Caveat Brush' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blue Props | Metal</title>
+    <link rel="stylesheet" href="metal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="description" content="just a general blog page of where i am with my ongoing studyies. it also helps me with wrighting and understnading code">
+    <meta name="author" content="Jules Bisschoff">
+    <meta name="keywords" content="props nida NIDA Nida Props Building Jules Bisschoff JulesBisschoff ">
+    <link rel="icon" href="pics/Logo.png">
+
+</head>
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
+
+<body>
+
+    <!-- header -->
+
+
+     <section> 
+      <div class="topnav">
+        <a class="active"><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span></a>
+        <a href="index.html"         ><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="#"                  ><i class="fa fa-fw fa-search"></i> Search</a>
+
+
+        <div class="topnav-right">
+        <a href="About.html"                  ><i class="fa fa-fw fa-envelope"></i> Contact</a>
+        <b ><img src="pics/logo 2.png"  width=65/></b>
+        </div>
+
+        <div class="topnav-centered">
+                <a>Metal</a>
+        </div>
+      </div>
+     </section>
+    
+
+
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
+
+<!-- navagation bar -->
+
+
+<section>
+
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html"       ><i class="fa fa-fw fa-home"></i> Home</a>
+      <a href="timber.html"      >Timber</a>
+      <a href="metal.html"       >Metal</a>
+      <a href="Paper.html"       >Paper props</a>
+      <a href="CAD.html"         >Cad Drawings</a>
+      <a href="fabric.html"      >Fabric</a>
+      <a href="Molds.html"       >Molding and Casting</a>
+      <a href="Other.html"       >Other</a>
+      <a href="Photos.html"      >Production Photos</a>
+      <a href="About.html"       >About</a>
+      <a href="About.html"     ><i class="fa fa-fw fa-envelope"></i>contact</a>
+    </div>
+        
+            
+      
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
+
+  <!--  body  -->
+
+  <div class="main">
+
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('meterial')"> Meterial</button>
+      <button class="btn" onclick="filterSelection('photos')"> Photos</button>
+    </div>
+
+  <!-- Portfolio Gallery Grid -->
+
+<div class="row">
+  
+  <div class="column meterial">
+    <div class="content">
+      <div class="flip-box">
+        <div class="flip-box-inner">
+          <div class="flip-box-front">
+      <img src="pics/metal/Chair frame.jpg"  style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor"/>
+          </div>
+          <div class="flip-box-back">
+      <img src="pics/metal/chair frame 2.jpg"  style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor"/>
+          </div>
+        </div>
+      </div>
+    
+      <h4>Chair frame</h4>
+      <p>After the 3rd primer layer for the metal frame I made from my replica OVA sessle chair.</p>
+    </div>
+  </div>
+  
+
+
+  <div class="column meterial">
+    <div class="content">
+      <div class="flip-box">
+        <div class="flip-box-inner">
+          <div class="flip-box-front">
+      <img src="pics/metal/rings.jpg"  style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor"/>
+          </div>
+          <div class="flip-box-back">
+      <img src="pics/metal/ring 2.jpg"  style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor"/>
+          </div>
+        </div>
+      </div>
+    
+      <h4>Brass Rings</h4>
+      <p>Made to size starting from a piece of sheet metal.</p>
+    </div>
+  </div>
+
+
+  <div class="column meterial">
+    <div class="content">
+      <div class="flip-box">
+        <div class="flip-box-inner">
+          <div class="flip-box-front">
+      <img src="pics/metal/knife.jpg"  style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor"/>
+          </div>
+          <div class="flip-box-back">
+      <img src="pics/metal/fancy knife.JPG"  style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor"/>
+          </div>
+        </div>
+      </div>
+    
+      <h4>Knife</h4>
+      <p>A thick prop knife with a blunt edge made of 8mm alluminum</p>
+    </div>
+  </div>
+
+
+
+    <div class="column meterial">
+      <div class="content">
+        <img src="pics/metal/hammer.jpg"  style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor"/></a>
+        <h4>Hammer</h4>
+        <p>Made entirely on a metal lathe including the knurled handle.</p>
+      </div>
+    </div>
+ 
+
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+
+
+<!--  1  -->
+
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="pics/timber/chess board/5.jpg" style="width:100%">
+      <p>chess Board</p>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">1.2 / 4</div>
+      <img src="pics/timber/chess board/10.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">1.3 / 4</div>
+      <img src="pics/timber/chess board/4.jpeg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">1.4 / 4</div>
+      <img src="pics/timber/chess board/9.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">1.5 / 4</div>
+      <img src="pics/timber/chess board/1.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">1.6 / 4</div>
+      <img src="pics/timber/chess board/2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">1.7 / 4</div>
+      <img src="pics/timber/chess board/7.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">1.8 / 4</div>
+      <img src="pics/timber/chess board/8.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="pics/timber/box/Timber.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">10 / 4</div>
+      <img src="pics/timber/chess board/" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">11 / 4</div>
+      <img src="pics/timber/chess board/" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">12 / 4</div>
+      <img src="pics/timber/chess board/" style="width:100%">
+    </div>
+
+
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
+
+</html>
+
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
+
+
+<!--javascript-->
+
+
+
+
+
+<script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
+
+
+
+
+
+<script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+        
+        for (i = 0; i < dropdown.length; i++) {
+          dropdown[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var dropdownContent = this.nextElementSibling;
+          if (dropdownContent.style.display === "block") {
+          dropdownContent.style.display = "none";
+          } else {
+          dropdownContent.style.display = "block";
+          }
+          });
+        }
+        </script>
+
+
+
+
+<!--  image layout  (grid)-->
+
+
+<script>
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("column");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+  
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+  }
+  
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  
+  
+  // Add active class to the current button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  </script>
+
+
+
+
+<!--  image layout  (light box)-->
+
+<script>
+  function openModal() {
+    document.getElementById("myModal").style.display = "block";
+  }
+  
+  function closeModal() {
+    document.getElementById("myModal").style.display = "none";
+  }
+  
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>

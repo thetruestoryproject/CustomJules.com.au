@@ -2,7 +2,16 @@
 <html lang="en">
 <head>
     <title>Jules Props</title>
-    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="assets/css/generic.css">
+    <link rel="stylesheet" href="assets/css/pages/portfolio.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/gobal.css">
+  
+
+
+
+
+  <!--<link rel="stylesheet" href="portfolio.css">-->  
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Caveat Brush' >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="pics/logo 4.png">
@@ -19,14 +28,18 @@
 <body>
 
   <section> 
-    <div class="topnav">
-      <b ><img src="pics/logo 3.png" alt="jules bisschoff" width=65/></b>
-      <a href="index.html"><img src="pics/other/Jules Props logo.png" style="height: 40px;" alt="Jules Bisschoff"></a>
+    <div class="header-container">
+      <div class="header-left">
+        <img src="assets/img/generic/logo 3.png"alt="jules bisschoff" />
+        <a id="logo" href="index.html"><img src="assets/img/other/Jules Props logo.png"  alt="Jules Bisschoff"></a>
+      </div>
+
+    
 
 
-      <div class="topnav-right">
-        <a href="Portfolio.html"         > <p>Portfolio</p></a>
-        <a href="About.html"             > <p>About</p>    </a>
+      <div class="header-navigation">
+        <a class="header-nav-item" href="Portfolio.html">Portfolio</a>
+        <a class="header-nav-item" href="About.html">About</a>
       </div>
 
     
@@ -36,72 +49,73 @@
     
 
   <header>
-    <h2>Portfolio</h2>
+    <div class="header">
+      <h2>Portfolio</h2>
+    </div>
   </header>
 
   
   <div class="main">
 
-    <div id="myBtnContainer">
-      <button class="btn" onclick="filterSelection('ALL')"> ALL</button>
-      <button class="btn" onclick="filterSelection('LARGE_SCALE')"> LARGE SCALE</button>
-      <button class="btn" onclick="filterSelection('MINITURE')"> MINITURE</button>
-      <button class="btn" onclick="filterSelection('WEPONS')"> WEPONS</button>
-      <button class="btn" onclick="filterSelection('COSPLAY')"> COSPLAY</button>
-
-    </div>
-
-
-
-
     <!-- Portfolio Gallery Grid -->
-    <div class="row">
+    <div class="grid-gallery">
       <!-------------->
 
-      <div class="column LARGE_SCALE COSPLAY">
+      <div class="folder">
         <div class="content">
-          <a href="worrior.html" ><img src="pics/other/Worrior 2.jpg" width="100%"  class="hover-shadow cursor"/></a>
+          <a href="worrior.html" ><img src="assets/img/other/Worrior 2.jpg" width="100%"  class="hover-shadow cursor"/></a>
           <h3>Hero Suit</h3>
         </div>
       </div>
 
-      <div class="column WEPONS COSPLAY">
+      <div class="folder">
         <div class="content">
-          <a href="#" ><img src="pics/other/sword 1b.png"  width=100% class="hover-shadow cursor"/></a>
+          <a href="race_buggy.html" ><img src="assets/img/3d_printed_race_buggy/buggy_600x600.jpg"  width=100% class="hover-shadow cursor"/></a>
+          <h3>Race Buggy</h3>
+        </div>
+      </div>
+
+      <div class="folder">
+        <div class="content">
+          <a href="#" ><img src="assets/img/other/sword 1b.png"  width=100% class="hover-shadow cursor"/></a>
           <h3>Light-up Sword</h3>
         </div>
       </div>
 
-      <div class="column MINITURE">
+      <div class="folder">
         <div class="content">
-          <a href="#" ><img src="pics/other/3d print.jpg"  width=100% class="hover-shadow cursor"/></a>
-          <h3>New 3D Printer</h3>
-        </div>
-      </div>
-
-      <div class="column LARGE_SCALE">
-        <div class="content">
-          <a href="OVA_Sessel.html" ><img src="pics/other/chair 4.png"  width=100% class="hover-shadow cursor"/></a>
+          <a href="#" ><img src="assets/img/other/chair 4.png"  width=100% class="hover-shadow cursor"/></a>
           <h3>OVA Sessel (Chair Replica)</h3>
         </div>
       </div>
   
-      <div class="column LARGE_SCALE MINITURE">
+      <div class="folder">
         <div class="content">
-          <a href="Baba Yaga House.html" ><img src="pics/Poly Sculpt/full house.jpg"  width=100% class="hover-shadow cursor"/></a>
+          <a href="#" ><img src="assets/img/Poly Sculpt/full house.jpg"  width=100% class="hover-shadow cursor"/></a>
           <h3>Baba Yaga's House</h3>
         </div>
       </div>
 
-      <div class="column MINITURE">
+      <div class="folder">
         <div class="content">
-          <a href="sign.html" ><img src="pics/other/Sign !2.png"  width=100% class="hover-shadow cursor"/></a>
-          <h3>Desktop Decoration</h3>
+          <a href="#" ><img src="assets/img/3d scan/head scan.jpg"  width=100% class="hover-shadow cursor"/></a>
+          <h3>3D Scanning</h3>
         </div>
       </div>
 
+      <div class="folder">
+        <div class="content">
+          <a href="#" ><img src="assets/img/animetronics/animetronics.jpg"  width=100% class="hover-shadow cursor"/></a>
+          <h3>Animetronics</h3>
+        </div>
+      </div>
 
-
+      <div class="folder">
+        <div class="content">
+          <a href="#" ><img src="assets/img/backstage crew/flylines.jpg"  width=100% class="hover-shadow cursor"/></a>
+          <h3>Backstage Crew</h3>
+        </div>
+      </div>
 
     </div>
   </div>
@@ -112,7 +126,7 @@
 
   <div class=" footer-top">
     <p>Follow us<br>
-      <a href="https://www.instagram.com/julesbisschoff/" class="fa fa-instagram" style="font-size:44px;text-shadow:2px 2px 4px #000000;"></a>
+      <a href="https://www.instagram.com/julesbisschoff/" class="fa fa-instagram"></a>
     </p>
   </div>
   
@@ -122,109 +136,4 @@
 
 </footer>
 
-<!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
 </html>
-<!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--javascript-->
-
-
-
-
-
-
-
-
-<script>
-        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-        var dropdown = document.getElementsByClassName("dropdown-btn");
-        var i;
-        
-        for (i = 0; i < dropdown.length; i++) {
-          dropdown[i].addEventListener("click", function() {
-          this.classList.toggle("active");
-          var dropdownContent = this.nextElementSibling;
-          if (dropdownContent.style.display === "block") {
-          dropdownContent.style.display = "none";
-          } else {
-          dropdownContent.style.display = "block";
-          }
-          });
-        }
-        </script>
-
-
-
-
-<!--  image layout  -->
-
-
-<script>
-  filterSelection("ALL")
-  function filterSelection(c) {
-    var x, i;
-    x = document.getElementsByClassName("column");
-    if (c == "ALL") c = "";
-    for (i = 0; i < x.length; i++) {
-      w3RemoveClass(x[i], "show");
-      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-    }
-  }
-  
-  function w3AddClass(element, name) {
-    var i, arr1, arr2;
-    arr1 = element.className.split(" ");
-    arr2 = name.split(" ");
-    for (i = 0; i < arr2.length; i++) {
-      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-    }
-  }
-  
-  function w3RemoveClass(element, name) {
-    var i, arr1, arr2;
-    arr1 = element.className.split(" ");
-    arr2 = name.split(" ");
-    for (i = 0; i < arr2.length; i++) {
-      while (arr1.indexOf(arr2[i]) > -1) {
-        arr1.splice(arr1.indexOf(arr2[i]), 1);     
-      }
-    }
-    element.className = arr1.join(" ");
-  }
-  
-  
-  // Add active class to the current button (highlight it)
-  var btnContainer = document.getElementById("myBtnContainer");
-  var btns = btnContainer.getElementsByClassName("btn");
-  for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function(){
-      var current = document.getElementsByClassName("active");
-      current[0].className = current[0].className.replace(" active", "");
-      this.className += " active";
-    });
-  }
-  </script>
