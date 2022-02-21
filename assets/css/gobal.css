@@ -16,6 +16,10 @@
     align-items: center;
 }
 
+.main {
+    padding-top: 10px;
+}
+
 .footer-top {
     background-color:rgb(29, 29, 29);
     padding: 20px;
@@ -56,24 +60,86 @@
 .column {
     display: flex;
     align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.column-portfolio {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .page-left {
     padding: 40px;
-    height: 1000px;
-    width: 100%;
+    height: auto;
+    width: 450px;
     display: flex;
     flex-direction: column;
 }
 
 .page-right {
     padding: 20px;
-    padding-right: 20%;
-    height: 1000px;
-    max-width: 700px;
-    max-width: 50%;
+    height: auto;
+    max-width: 450px;
 }
 
 .big_pic {
     width: 100%;
+    width: 400px;
+}
+
+.small_pics {
+    display: flex;
+}
+
+.pic{
+    width: 125px;
+}
+
+.pic:hover  {
+    background-color: #000000;
+    opacity: 0.3;
+}
+
+.grid-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.folder {
+    width: 300px;
+}
+
+.content {
+    text-align: center;
+}
+
+@media(max-width: 801px){
+    .column{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content:flex-start
+    }
+    .page-left{
+        height: auto;
+        padding-left: 10px;
+        width: fit-content;
+    }
+    .small_pics{
+        width: 300px;
+    }
+    .pic{
+        width: 100px;
+    }
+    .page-right{
+        height: auto;
+        max-width: 100%;
+    }
+    .big_pic {
+        width: 100%;
+        max-width: 100%;
+    }
 }

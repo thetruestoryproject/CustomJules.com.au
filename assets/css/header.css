@@ -9,7 +9,6 @@
 
 .header-left { 
     height: 100%;
-    width: 80px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -35,11 +34,36 @@
 
 .header-nav-item {
     display: flex;
-    background-color: pink;
+    background-color: rgb(209, 209, 209);
     width: 65px;
-    height: 70%;
+    height: 60px;
     padding: 5px;
+    margin: 5px;
     align-items: space-between;
+    align-items: center;
+    justify-content: center;
 }
 
+.name-mini{
+    display:none ;
+}
+
+@media(max-width: 801px){
+    .name{
+        display: none;
+    }
+    .name-mini{
+        display:contents;
+        padding-left: 5px;
+    }
+    .header{
+        font-size: 15px;
+    }
+    .header-left{
+        padding: 15px;
+    }
+    .title{
+        display: none;
+    }
+}
 
