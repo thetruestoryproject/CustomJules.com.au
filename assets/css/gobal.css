@@ -69,6 +69,14 @@
     align-items: baseline;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    max-width: 1190px;
+  
+}
+
+.main {
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 .page-left {
