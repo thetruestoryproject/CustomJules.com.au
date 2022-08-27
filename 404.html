@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <title>404 Page Not Found</title>
+    <link rel="icon" href="assets/css/images/shared/favicon.ico"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/shared.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/header-footer.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js"></script>
+    <script type="text/javascript">
+        document.documentElement.className = 'js';
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+</head>
+
+<body id="body" class="clearfix">
+    <main style="height: 100vh; overflow:hidden">
+        <header id="header" class="transparent">
+            <div class="header-row">
+                <div class="col-12">
+                    <a id="logo" class="logo" href="index.html">Jules Bisschoff</a>
+                    <div class="icon-nav">navigation</div>
+                    <nav>
+                        <ul id="nav">
+                            <li><a href="professional.html">Technical</a></li>
+                            <li><a href="404.html">props</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                            <li>
+                                <ul class="social">
+                                    <li class="linkedin"><a href="https://www.linkedin.com/in/jules-bisschoff-92b92418b/" title="Connect with me on Linkedin" target="_blank">linkedin</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>  
+        </header>
+        <div class="mobile typewriter-bg" ><h1 id="error-404-typewriter-mobile" class="typewriter center-all"></h1></div>  
+        <div class="wrapper">
+            <div class="clearfix home desktop">
+                <h1 id="error-404-typewriter-desktop" class="typewriter center-all" style="padding-top: 45vh"></h1>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <a id="logo" class="logo-white logo-footer-fix" href="index.html">Jules Bisschoff</a>
+        <nav>
+            <ul id="nav">
+                <li><a href="professional.html">technical</a></li>
+                <li><a href="404.html">props</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+        <ul class="social">
+            <li class="linkedin-white"><a href="https://www.linkedin.com/in/jules-bisschoff-92b92418b/" title="Connect with me on Linkedin" target="_blank">linkedin</a></li>
+        </ul>
+        <p class="copyright">2022 Jules Bisschoff</p>
+    </footer>
+    <script src="https://ajax.microsoft.com/ajax/jquery/jquery-1.7.2.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/404.js"></script>
+    <script type="text/javascript">
+    // Call functions when dom is ready
+    $(document).ready(function() {
+
+        // Hide browser top bar in mobiles
+        $('body').scrollTop(1);
+
+        // Toggle Navigation for mobile devices
+        $('.icon-nav').on('click', function(){
+            $('header nav').slideToggle();
+            $(this).toggleClass('active');
+        });
+
+        // Function to scroll to top
+        $('a[href=#top]').click(function(){
+            $('html, body').animate({scrollTop:0}, 1000, 'easeInOutQuad');
+            return false;
+        });
+
+        // Function to fade in image sprites
+        $('.sprite').fadeSprite();
+
+        // Function to animate when leaving page
+        $('.transition, #nav .page_item a, #logo, #face a').leavePage();
+
+        // Animate the header on first
+        $('#header').stop().animate({'opacity': '1', 'top':'0'}, 1000);
+
+        // Preload the page with jPreLoader
+        $('body').jpreLoader({
+            showSplash: true
+        }, function() {
+
+        });
+    });
+    </script>
+</body>
+</html>

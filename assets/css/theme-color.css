@@ -1,0 +1,80 @@
+.theme-color-66d6ff blockquote:before,
+.theme-color-66d6ff .contact-map .contact-info a:hover,
+.theme-color-66d6ff .interests-list i,
+.theme-color-66d6ff .input-field.used label,
+.theme-color-66d6ff .logo span,
+.theme-color-66d6ff #map .map-icon,
+.theme-color-66d6ff .nav-wrap .btn-mobile-nav,
+.theme-color-66d6ff .page-404 h2 span,
+.theme-color-66d6ff .post-box .post-title a:hover,
+.theme-color-66d6ff .post-single .post-title a:hover,
+.theme-color-66d6ff .post-comments .section-title,
+.theme-color-66d6ff .ref-box .person-speech:before,
+.theme-color-66d6ff .timeline-box .date,
+.theme-color-66d6ff .widget-title,
+.theme-color-66d6ff .widget_meta ul li a:hover,
+.theme-color-66d6ff .widget_archive ul li a:hover,
+.theme-color-66d6ff .widget_nav_menu ul li a:hover,
+.theme-color-66d6ff .widget_categories ul li a:hover,
+.theme-color-66d6ff .widget_recent_entries ul li a:hover,
+.theme-color-66d6ff .widget_recent_comments ul li a:hover,
+.theme-color-66d6ff .widget_search .search-form:before,
+.theme-color-66d6ff .widget-popuplar-posts .post-title a:hover,
+.theme-color-66d6ff .widget-recent-posts .post-title a:hover {
+	color: #BF4040
+}
+
+.theme-color-66d6ff ins,
+.theme-color-66d6ff mark,
+.theme-color-66d6ff .btn-primary,
+.theme-color-66d6ff .btn-primary-outer,
+.theme-color-66d6ff .btn-sidebar-close,
+.theme-color-66d6ff .calendar-busy .calendar-body td .current-day,
+.theme-color-66d6ff .calendar-busy .calendar-today .date,
+.theme-color-66d6ff .filter .active:after,
+.theme-color-66d6ff .filter-bar .filter-bar-line,
+.theme-color-66d6ff .input-field .line:before,
+.theme-color-66d6ff .input-field .line:after,
+.theme-color-66d6ff .mobile-nav,
+.theme-color-66d6ff .nav>ul>li>a>span,
+.theme-color-66d6ff .post-datetime,
+.theme-color-66d6ff .profile-social,
+.theme-color-66d6ff .profile-preword span,
+.theme-color-66d6ff .progress-bar .bar-fill,
+.theme-color-66d6ff .progress-bar .bar-line:after,
+.theme-color-66d6ff .price-box.box-primary .btn,
+.theme-color-66d6ff .price-box.box-primary .price-box-top,
+.theme-color-66d6ff .profile-list .button,
+.theme-color-66d6ff .pagination .page-numbers.current,
+.theme-color-66d6ff .pagination .page-numbers.current:hover,
+.theme-color-66d6ff .pagination .page-numbers:active,
+.theme-color-66d6ff .pagination .page-numbers.next:active,
+.theme-color-66d6ff .pagination .page-numbers.prev:active,
+.theme-color-66d6ff .timeline-bar,
+.theme-color-66d6ff .timeline-box .dot,
+.theme-color-66d6ff .timeline-box-compact .date span,
+.theme-color-66d6ff .widget_tag_cloud a:hover {
+	background-color: #BF4040
+}
+
+.theme-color-66d6ff .mejs-container .mejs-controls .mejs-time-rail .mejs-time-current,
+.theme-color-66d6ff .mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+	background: #BF4040
+}
+
+.theme-color-66d6ff .timeline-box-inner,
+.theme-color-66d6ff .price-box.box-primary .btn,
+.theme-color-66d6ff .widget_search .search-form,
+.theme-color-66d6ff .widget_tag_cloud a:hover {
+	border-color: #BF4040
+}
+
+.theme-color-66d6ff .page-404 h2 span:before,
+.theme-color-66d6ff .profile-preword span:before,
+.theme-color-66d6ff .timeline-box-compact .date span:before {
+	border-left-color: #BF4040
+}
+
+.theme-color-66d6ff .price-box.box-primary .price-box-top:before {
+	border-top-color: #BF4040
+}

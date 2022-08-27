@@ -1,0 +1,509 @@
+.clearfix:after,
+.clearfix:before,
+.row:after,
+.row:before,
+section:after,
+section:before {
+	display: table;
+	content: ""
+}
+
+.clearfix:after,
+.row:after,
+section:after {
+	clear: both
+}
+
+.nopad-t {
+	padding-top: 0!important
+}
+
+.nopad-b {
+	padding-bottom: 0!important
+}
+
+.h1,
+h1 {
+	margin-bottom: .1em;
+	font-size: 64px;
+	font-size: 6.4rem;
+	line-height: 1.2em;
+	font-family: "Jetbrains Mono", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	letter-spacing: -.07em;
+	color: #222
+}
+
+section.light {
+	overflow: hidden;
+	padding: 3em 1.5em
+}
+
+img {
+	max-width: 100%;
+	position: relative;
+	margin-bottom: 2em;
+	height: auto
+}
+
+.js #professional,
+.js #creative-bg,
+.js #professional-img,
+.js #content,
+.js #creative,
+.js #professional-bg,
+.js #creative-img,
+.js #img-0,
+.js #img-1,
+.js #img-2,
+.js #img-3,
+.js #img-4,
+.js #img-5 {
+	top: 400px;
+	opacity: 0
+}
+
+.face {
+	width: 100%;
+	position: relative
+}
+
+.face a {
+	color: #666;
+	text-decoration: none
+}
+
+.face .professional,
+.face .creative {
+	position: absolute;
+	width: 40%;
+	display: block;
+	z-index: 10;
+	height: 15%;
+	margin: auto;
+	top: 0;
+	bottom: 0
+}
+
+.face .creative h1,
+.face .professional h1,
+.subtitle {
+	font-size: 22px;
+	font-size: 2.2rem
+}
+
+.face .creative h1:hover,
+.face .professional h1:hover,
+.subtitle:hover {
+	color: rgb(74, 74, 74)
+}
+
+.face .creative {
+	left: 0
+}
+
+.face .professional {
+	right: 0;
+	text-align: right
+}
+
+.face .professional p,
+.face .creative-bg,
+.face .professional-img,
+.face .creative p,
+.face .professional-bg,
+.face .creative-img {
+	display: none
+}
+
+@media only screen and (min-width:1px) {
+	.subtitle {
+		font-size: 12px;
+		font-size: 1.2rem
+	}
+}
+
+@media only screen and (min-width:310px) {
+	.subtitle {
+		font-size: 14px;
+		font-size: 1.4rem
+	}
+}
+
+@media only screen and (min-width:373px) {
+	.subtitle {
+		font-size: 16px;
+		font-size: 1.6rem
+	}
+}
+
+@media only screen and (min-width:418px) {
+	.subtitle {
+		font-size: 19px;
+		font-size: 1.9rem
+	}
+}
+
+@media only screen and (min-width:486px) {
+	.subtitle {
+		font-size: 24px;
+		font-size: 2.4rem
+	}
+}
+
+@media only screen and (min-width:600px) {
+	.subtitle {
+		font-size: 32px;
+		font-size: 3.2rem
+	}
+}
+
+@media only screen and (min-width:750px) {
+	.face .professional,
+	.face .creative {
+		height: 400px;
+	}
+	.subtitle {
+		font-size: 33px;
+		font-size: 3.3rem
+	}
+	.face .professional p,
+	.face .creative p {
+		display: block;
+		font-size: 20px;
+		font-size: 2rem;
+		line-height: 1.4em;
+		margin: 0
+	}
+}
+
+@media only screen and (min-width:860px) {
+	.face .professional,
+	.face .creative {
+		height: 400px;
+	}
+	.subtitle {
+		font-size: 42px;
+		font-size: 4.2rem
+	}
+	.face .professional p,
+	.face .creative p {
+		font-size: 22px;
+		font-size: 2.2rem;
+		line-height: 1.4em
+	}
+}
+
+@media only screen and (min-width:1079px) {
+	.face .professional,
+	.face .creative {
+		height: 400px;
+	}
+	.subtitle {
+		font-size: 52px;
+		font-size: 5.2rem
+	}
+}
+
+.desktop {
+	display: none
+}
+
+.typewriter {
+	font-size: calc(1vw + 29px);
+}
+.typewriter-bg {
+	background-color: rgba(255,255,255,0.5);
+}
+
+.mobile-buttons {
+	position: absolute; 
+	bottom: 20px;
+	width: 100vw;
+}
+
+.btn2 {
+	padding: 24px 0;
+	font-weight: 600;
+	font-family: "Jetbrains Mono", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	line-height: 1.1;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 0;
+	width: 95vw;
+	max-width: 470px;
+}
+
+.professional-btn {
+	margin: 0;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -103px);
+}
+
+.creative-btn {
+	margin: 0;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -187px);
+}
+
+
+.animate-right {
+	transform: translate(100%, -187px);
+	opacity: 0;
+}
+
+.animate-right.in-progress {
+	transition-timing-function: ease-out;
+	transition: 0.75s;
+	transform: translate(-50%, -187px);
+	opacity: 1;
+}
+
+.animate-left {
+	transform: translate(-200%, -103px);
+	opacity: 0;  
+}
+
+.animate-left.in-progress {
+	transition-timing-function: ease-out;
+	transition: 0.75s;
+	transform: translate(-50%, -103px);
+	opacity: 1;
+}
+
+@media only screen and (max-width:1023px) {
+	main {
+		background-color: transparent !important;
+		background-image: url(images/index/mobile-bg.jpg) !important;
+		background-position: center center; 
+		background-repeat: no-repeat;
+		min-height: 100vh;
+	}
+	.typewriter-bg {
+		position:relative;
+		bottom: calc(-100vh + 280px);
+	}
+	.homepage-col {
+		display: none;
+	}
+}
+
+@media only screen and (min-width:1024px) {
+	.desktop {
+		display: block
+	}
+	.main {
+		background-color: rgb(230,230,230);
+	}
+	.mobile {
+		display: none;
+	}
+	.typewriter {
+		padding-top: calc(7vh + 102px);
+		padding-bottom: calc(5vh + 15px);
+	}
+	.typewriter-bg {
+		background-color: transparent;
+	}
+	.face {
+		min-width: 1220px;
+		width: 1220px;
+		height: calc(100vh - 186px);
+	}
+	.face .professional,
+	.face .creative {
+		height: 400px;
+	}
+	.face .professional h1,
+	.face .creative h1 {
+		font-size: calc(1vw + 20px);
+		font-size: calc(1vw + 26px);
+	}
+	.face .professional .description,
+	.face .creative .description {
+		position: absolute;
+		width: 380px
+	}
+	.face .professional p,
+	.face .creative p {
+		font-size: calc(1vw + 7px);
+		font-size: calc(1vw + 7px);
+		line-height: 1.4em
+	}
+	.face .professional {
+		text-align: left;
+		right: calc(320px - 28vw);
+	}
+	.face .professional .description {
+		right: 0
+	}
+	.face .creative {
+		text-align: right;
+		left: calc(320px - 28vw);
+	}
+	.face .creative .description {
+		left: 0
+	}
+	.face .professional-img {
+		width: 601px;
+		height: calc(100vh - 186px);
+		right: 10px;
+		position: absolute;
+		background: url(images/index/dg-face-right.png) no-repeat;
+		display: block;
+		z-index: 1
+	}
+	.face .creative-img {
+		width: 601px;
+		height: calc(100vh - 186px);
+		left: 10px;
+		position: absolute;
+		background: url(images/index/dg-face-left.png) no-repeat;
+		display: block;
+		z-index: 1
+	}
+	.face .professional-img {
+		background-position: 100% 0%;
+	}
+	.face .creative-bg {
+		width: 530px;
+		height: 403px;
+		right: 0px;
+		position: absolute;
+		background: url(images/index/sprite-background.png) no-repeat;
+		display: block;
+		background-position: 100% 50%;
+	}
+	.face .professional-bg {
+		width: 496px;
+		height: 403px;
+		left: 0px;
+		position: absolute;
+		background: url(images/index/sprite-background.png) no-repeat;
+		display: block;
+	}
+}
+
+@media only screen and (min-width:1750px) {
+	.typewriter {
+		font-size: 82px;
+		font-size: 8.2rem
+	}
+	.face .professional h1,
+	.face .creative h1 {
+		font-size: 62px;
+		font-size: 6.2rem
+	}
+	.face .professional p,
+	.face .creative p {
+		font-size: 32px;
+		font-size: 3.2rem
+	}
+}
+
+@media only screen and (min-width:428px) {
+	.h1,
+	h1 {
+		font-size: 72px;
+		font-size: 7.2rem
+	}
+	.portfolio-h1 {
+		font-size: 30px;
+		font-size: 3rem
+	}
+}
+
+@media only screen and (max-width:829px) {
+	#header {
+		background-color: transparent;
+	}
+}
+
+@media only screen and (min-width:830px) {
+	.h1,
+	h1 {
+		font-size: 80px;
+		font-size: 8rem
+	}
+	.portfolio-h1 {
+		font-size: 50px;
+		font-size: 5rem
+	}
+	img {
+		margin-bottom: 4em
+	}
+	.homepage-col {
+		float: left;
+		width: 50%;
+		text-align: left
+	}
+}
+
+@media only screen and (min-width:1024px) {
+	.portfolio-h1 {
+		font-size: 60px;
+		font-size: 6rem
+	}
+	p {
+		line-height: 1.4em
+	}
+	.row {
+		clear: both;
+		margin: 0 auto
+	}
+	.row.alt .col-full {
+		float: right;
+		margin: 0 0 0 3.84615385%
+	}
+	.col-full {
+		float: left;
+		margin: 0 3.84615385% 0 0;
+		list-style: none;
+		position: relative
+	}
+	.row.alt .col-full:last-child,
+	[class^=col-]:last-child {
+		margin: 0
+	}
+	.col-full {
+		width: 100%;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center
+	}
+}
+
+@media only screen and (min-width:1247px) {
+	p {
+		line-height: 1.6em
+	}
+}
+
+@media (max-height:660px) {
+	.professional-img {
+		display: none !important;;
+	}
+	.creative-img {
+		display: none !important;
+	}
+	.professional {
+		left: 500px
+	}
+	.creative {
+		right: 500px
+	}
+}
+
+.homepage-col {
+	float: left;
+	width: 100%;
+	text-align: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.grey-bg {
+	background-color: rgb(34, 34, 34) !important;
+}

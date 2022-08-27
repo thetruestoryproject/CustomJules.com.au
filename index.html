@@ -1,245 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
+
 <head>
-  <title>Jules Props</title>
-  <link rel="stylesheet" href="assets/css/generic.css">
-  <link rel="stylesheet" href="assets/css/gobal.css">
-  <link rel="stylesheet" href="assets/css/header.css">
-  <link rel="stylesheet" href="assets/css/index.css">
+    <title>Jules Bisschoff / Props</title>
+    <meta name="description" content="Props maker, Lighting programmer and venue technician"/>
+    <link rel="icon" href="assets/css/images/shared/favicon.ico"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="cleartype" content="on">
 
+    <link rel="stylesheet" type="text/css" href="assets/css/shared.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/header-footer.css">
 
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Caveat Brush' >
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" href="assets/img/generic/logo 4.png">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Movie, Theatre and Advertisment Props and SFX">
-    <meta name="author" content="Jules Bisschoff">
-    <meta name="keywords" content="NIDA Jules Props Building Bisschoff promotion">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js"></script>
+    <script type="text/javascript">
+        document.documentElement.className = 'js';
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
 </head>
- 
 
+<body id="body" class="clearfix" onload="animate_buttons_mobile()">
+    <main style="height: 100vh; overflow:hidden">
+        <header id="header">
+            <div class="header-row">
+                <div class="col-12">
+                    <a id="logo" class="logo" href="index.html">Jules Bisschoff</a>
+                    <div class="icon-nav">navigation</div>
+                    <nav>
+                        <ul id="nav">
+                            <li><a href="professional.html">Technical</a></li>
+                            <li><a href="404.html">props</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                            <li>
+                                <ul class="social">
+                                    <li class="linkedin"><a href="https://www.linkedin.com/in/jules-bisschoff-92b92418b/" title="Connect with me on Linkedin" target="_blank">linkedin</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>  
+        </header>
+        <div class="mobile typewriter-bg"><h1 id="typewriter-mobile" class="typewriter center-all"></h1></div>
+        <div class="mobile-buttons">
+            <a href="creative.html"><button id="creative-btn-mobile" class="mobile btn2 professional-btn animate-left">Props Portfolio</button></a>
+            <a href="professional.html"><button id="professional-btn-mobile" class="mobile btn2 creative-btn animate-right">Technical Portfolio</button></a>
+        </div>     
+        <div class="wrapper">
+            <div id="content" class="clearfix home desktop">
+                <h1 id="typewriter-desktop" class="typewriter center-all"></h1>
+                <section id="section" class="nopad-t nopad-b">
+                    <div class="row">
+                        <div class="col-full">
+                            <div id="face" class="face">
+                                <a href="professional.html">
+                                    <div id="creative" class="creative">
+                                        <div id="creative-desc" class="description">
+                                            <h1 class="subtitle">Technical portfolio</h1>
+                                            <p><mark>Lighting programmer, venue technician and standby props</mark></p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="creative.html">
+                                    <div id="professional" class="professional">
+                                        <div id="professional-desc" class="description">
+                                            <h1 class="subtitle">Props portfolio</h1>
+                                            <p><mark>Making custom props, wepons and special effects.</mark></p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="creative-img" class="creative-img"></div>
+                                <div id="professional-img" class="professional-img"></div>
+                                <div id="professional-bg" class="professional-bg"></div>
+                                <div id="creative-bg" class="creative-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <a id="logo" class="logo-white logo-footer-fix" href="index.html">Jules Bisschoff</a>
+        <nav>
+            <ul id="nav">
+                <li><a href="professional.html">Technical</a></li>
+                <li><a href="404.html">Props</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+        <ul class="social">
+            <li class="linkedin-white"><a href="https://www.linkedin.com/in/jules-bisschoff-92b92418b/" title="Connect with me on Linkedin" target="_blank">linkedin</a></li>
+        </ul>
+        <p class="copyright">© 2022 Jules Bisschoff</p>
+    </footer>
+    <script src="https://ajax.microsoft.com/ajax/jquery/jquery-1.7.2.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script type="text/javascript">
+    // Call functions when dom is ready
+    $(document).ready(function() {
 
-<!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
+        // Hide browser top bar in mobiles
+        $('body').scrollTop(1);
 
-<body>
+        // Toggle Navigation for mobile devices
+        $('.icon-nav').on('click', function(){
+            $('header nav').slideToggle();
+            $('header').toggleClass('grey-bg');
+            $(this).toggleClass('active');
+        });
 
-  <section> 
-    <div class="header-container">
-      <div class="header-left">
-        <img src="assets/img/generic/logo 3.png"alt="jules bisschoff" />
-        <div class="name"><a id="logo" href="index.html"><img src="assets/img/other/Jules Props logo.jpg"  alt="Jules Bisschoff"></a></div>
-        <div class="name-mini"><a id="logo" href="index.html"><img src="assets/img/other/jules props mini.jpg"  alt="Jules Bisschoff"></a></div>
-      </div>
+        // Function to scroll to top
+        $('a[href=#top]').click(function(){
+            $('html, body').animate({scrollTop:0}, 1000, 'easeInOutQuad');
+            return false;
+        });
 
-    
+        // Function to fade in image sprites
+        $('.sprite').fadeSprite();
 
+        // Function to animate when leaving page
+        $('.transition, #nav .page_item a, #logo, #face a').leavePage();
 
-      <div class="header-navigation">
-        <a class="header-nav-item" href="Portfolio.html">Portfolio</a>
-        <a class="header-nav-item" href="#">About</a>
-      </div>
+        // Animate the header on first
+        $('#header').stop().animate({'opacity': '1', 'top':'0'}, 1000);
 
-    
-      
-    </div>
-  </section>
-    
-
-
-  <!--  body  -->
-  <div class="main2">
-  <!-- Slideshow container -->
-    <div class="slideshow-container">
-  
-
-      <div class="mySlides fade">
-        <div class="numbertext"></div>
-        <img src="assets/img/other/sketch 1.jpg" style="width:100%">
-        <div class="text"></div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext"></div>
-        <img src="assets/img/other/worrior 3.jpg" style="width:100%" >
-        <div class="text"></div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext"></div>
-        <img src="assets/img/Poly Sculpt/intro logo.jpg" style="width:100%">
-        <div class="text"></div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext"></div>
-        <img src="assets/img/other/worrior 4.png" style="width:100%">
-        <div class="text"></div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext"></div>
-        <img src="assets/img/other/head rendering 2.jpg" style="width:100%">
-        <div class="text"></div>
-      </div>
-
-     
-
-
-    </div>
-  </div>
-
-</body>
-
-
-
-
-
-
-<footer>
-
-  <div class=" footer-top">
-    <p>Follow us<br>
-      <a href="https://www.instagram.com/julesbisschoff/" class="fa fa-instagram"></a>
-    </p>
-  </div>
-  
-  <div class="footer-bottom">
-    COPYRIGHT 2021 JULES PROPS.  ALL RIGHTS RESERVED
-  </div>
-
-</footer>
-
-<!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
-
-</html>
-
-
-<!-- -------------------------------------------------------------------------------------------------------------------------------------  -->
-
-
-<!--javascript-->
-
-
-
-<script>
-  var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-</script>
-
-
-<script>
-  var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 10000); // Change image every 10 seconds
-}
-</script>
-
-
-
-<script>
-        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-        var dropdown = document.getElementsByClassName("dropdown-btn");
-        var i;
-        
-        for (i = 0; i < dropdown.length; i++) {
-          dropdown[i].addEventListener("click", function() {
-          this.classList.toggle("active");
-          var dropdownContent = this.nextElementSibling;
-          if (dropdownContent.style.display === "block") {
-          dropdownContent.style.display = "none";
-          } else {
-          dropdownContent.style.display = "block";
-          }
-          });
-        }
-        </script>
-
-
-
-
-<!--  image layout  -->
-
-
-<script>
-  filterSelection("ALL")
-  function filterSelection(c) {
-    var x, i;
-    x = document.getElementsByClassName("column");
-    if (c == "ALL") c = "";
-    for (i = 0; i < x.length; i++) {
-      w3RemoveClass(x[i], "show");
-      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-    }
-  }
-  
-  function w3AddClass(element, name) {
-    var i, arr1, arr2;
-    arr1 = element.className.split(" ");
-    arr2 = name.split(" ");
-    for (i = 0; i < arr2.length; i++) {
-      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-    }
-  }
-  
-  function w3RemoveClass(element, name) {
-    var i, arr1, arr2;
-    arr1 = element.className.split(" ");
-    arr2 = name.split(" ");
-    for (i = 0; i < arr2.length; i++) {
-      while (arr1.indexOf(arr2[i]) > -1) {
-        arr1.splice(arr1.indexOf(arr2[i]), 1);     
-      }
-    }
-    element.className = arr1.join(" ");
-  }
-  
-  
-  // Add active class to the current button (highlight it)
-  var btnContainer = document.getElementById("myBtnContainer");
-  var btns = btnContainer.getElementsByClassName("btn");
-  for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function(){
-      var current = document.getElementsByClassName("active");
-      current[0].className = current[0].className.replace(" active", "");
-      this.className += " active";
+        // Preload the page with jPreLoader
+        $('body').jpreLoader({
+            showSplash: true
+        }, function() {
+            // Show the page once images are loaded
+                $('#face').animateHome();
+                $('#face').resizeFace();
+        });
     });
-  }
-  </script>
+    </script>
+</body>
+</html>

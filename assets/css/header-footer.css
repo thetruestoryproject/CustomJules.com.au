@@ -1,0 +1,526 @@
+body,
+body div,
+header,
+html,
+li,
+nav,
+ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: bottom;
+	background: 0 0
+}
+
+footer,
+header,
+nav {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: bottom;
+	background: 0 0;
+	display: block
+}
+
+.header-row:after,
+.header-row:before {
+	display: table;
+	content: ""
+}
+
+.header-row:after {
+	clear: both
+}
+
+html {
+	background: #fff;
+	font-size: 60%;
+	-webkit-overflow-scrolling: touch;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: "Open Sans Light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	background-color: transparent;
+	font-size: 18px;
+	font-size: 1.8rem;
+	color: #111;
+	text-rendering: optimizeLegibility
+}
+
+header {
+	margin-bottom: 75px;
+	box-sizing: content-box;
+	background: #111;
+	height: 88px;
+	padding: 10px 5% 0 5%;
+	width: 90vw;
+	position: absolute;
+	z-index: 1000;
+	font-family: "Open Sans Regular", "Helvetica Neue", Helvetica, Arial, Sans-serif
+}
+
+.transparent {
+	background: rgba(0, 0, 0, .4) !important;
+}
+
+header nav {
+	display: none;
+	background: #222;
+	position: absolute;
+	top: 98px;
+	right: 0;
+	z-index: 1000;
+	width: 100%;
+	font-size: 24px;
+	font-size: 2.4rem;
+	text-align: center
+}
+
+header nav li {
+	height: 3em;
+	list-style: none;
+	display: block;
+	border-top: #212121 solid 1px;
+	border-bottom: #363636 solid 1px
+}
+
+footer nav li a,
+header nav li a {
+	display: block;
+	color: #fff;
+	line-height: 3em;
+	text-decoration: none;
+	text-transform: lowercase
+}
+
+.logo {
+	height: 80px;
+	width: 192px;
+	background: url(images/shared/logo-initials-white.png) no-repeat;
+	transition: .1s;
+	display: block;
+	margin-right: 0;
+	text-indent: -9999px;
+	float: left
+}
+
+.logo:hover {
+	background: url(images/shared/logo-initials-blue.png) no-repeat;
+	transition: .1s
+}
+
+.logo-white {
+	height: 80px;
+	width: 192px;
+	background: url(images/shared/logo-initials-white.png) no-repeat;
+	transition: .1s;
+	display: block;
+	margin-right: 0;
+	text-indent: -9999px;
+	float: left
+}
+
+.logo:hover {
+	background: url(images/shared/logo-initials-blue.png) no-repeat;
+	transition: .1s
+}
+
+.icon-nav {
+	width: 27px;
+	height: 82px;
+	margin-top: 21px;
+	float: right;
+	background: url(images/shared/nav-hamburger.png) no-repeat;
+	transition: .1s;
+	display: block;
+	text-indent: -9999px
+}
+
+.icon-nav.active {
+	opacity: .5
+}
+
+.social li {
+	display: inline-block;
+	border: 0;
+	margin-top: 18px;
+	margin-left: 8px;
+	margin-right: 8px;
+	height: 32px
+}
+
+.social li a {
+	width: 32px;
+	height: auto;
+	display: inline-block;
+	transition: .1s;
+	text-indent: -9999px;
+	cursor: pointer;
+	padding: 0
+}
+
+.social li a:hover {
+	width: 32px;
+	height: auto;
+	display: inline-block;
+	transition: .1s;
+	text-indent: -9999px;
+	cursor: pointer;
+	padding: 0
+}
+
+.social .github a {
+	background: url(images/shared/github-white.png);
+	background-size: 32px 32px;
+	background-repeat: no-repeat
+}
+
+.social .linkedin a {
+	background: url(images/shared/linkedin-white.png);
+	background-size: 32px 32px;
+	background-repeat: no-repeat
+}
+
+.social .github:hover a {
+	background: url(images/shared/github-blue.png);
+	background-size: 32px 32px;
+	background-repeat: no-repeat
+}
+
+.social .linkedin:hover a {
+	background: url(images/shared/linkedin-blue.png);
+	background-size: 32px 32px;
+	background-repeat: no-repeat
+}
+
+.social .github-white a {
+	background: url(images/shared/github-white.png);
+	background-size: 32px 32px;
+	background-repeat: no-repeat
+}
+
+.social .linkedin-white a {
+	background: url(images/shared/linkedin-white.png);
+	background-size: 32px 32px;
+	background-repeat: no-repeat
+}
+
+.social .github-white:hover a {
+	background: url(images/shared/github-blue.png);
+	background-size: 32px 32px;
+	background-repeat: no-repeat
+}
+
+.social .linkedin-white:hover a {
+	background: url(images/shared/linkedin-blue.png);
+	background-size: 32px 32px;
+	background-repeat: no-repeat
+}
+
+.content {
+	margin-top: 98px
+}
+
+a {
+	text-decoration: underline;
+	cursor: pointer;
+	color: #333
+}
+
+a:active,
+a:hover {
+	color: #BF4040
+}
+
+::selection {
+	background: #333;
+	color: #fff
+}
+
+::-moz-selection {
+	background: #333;
+	color: #fff
+}
+
+::-webkit-selection {
+	background: #333;
+	color: #fff
+}
+
+ul.ul {
+	list-style-type: disc;
+	padding-left: 2em;
+	margin-bottom: 1.4em;
+	line-height: 1.4em
+}
+
+ul.ul li {
+	margin-bottom: .7em
+}
+
+@font-face {
+	font-family: 'Open Sans Light';
+	font-style: normal;
+	font-weight: 300;
+	src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2')
+}
+
+@font-face {
+	font-family: 'Jetbrains Mono';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/jetbrainsmono/v3/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxTOlOV.woff2) format('woff2')
+}
+
+@font-face {
+	font-family: 'Open Sans Bold';
+	font-style: normal;
+	font-weight: 600;
+	src: url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format('woff')
+}
+
+#jpreLoader {
+	width: 100px;
+	height: 100px;
+	background: url(images/shared/loader.png) 0 100% no-repeat;
+	position: fixed;
+	top: 43%;
+	left: 50%;
+	margin-left: -50px;
+	display: none
+}
+
+.js #content {
+	opacity: 0
+}
+
+.js #header {
+	top: -92px;
+	opacity: 0
+}
+
+@media only screen and (min-width:830px) {
+	.social {
+		margin-left: 30px
+	}
+	.social li {
+		margin-top: 30px
+	}
+	header {
+		background: transparent;
+		height: 92px
+	}
+	header nav {
+		float: right;
+		display: block;
+		font-size: 16px;
+		font-size: 1.6rem;
+		position: static;
+		background: 0 0;
+		width: auto
+	}
+	header nav li {
+		display: inline-block;
+		float: left;
+		position: relative;
+		height: 92px;
+		border: 0
+	}
+	header nav li a {
+		display: block;
+		color: #111;
+		line-height: 92px;
+		padding: 0 1em;
+		text-decoration: none
+	}
+
+	header nav li:hover a {
+		transition: .1s;
+		color: #BF4040
+	}
+	header .icon-nav {
+		display: none
+	}
+	.logo {
+		height: 80px;
+		width: 192px;
+		background: url(images/shared/logo-initials-black.png) no-repeat;
+		transition: .1s;
+		display: block;
+		margin-right: 0;
+		text-indent: -9999px;
+		float: left
+	}
+	.logo-white {
+		height: 80px;
+		width: 192px;
+		background: url(images/shared/logo-initials-white.png) no-repeat;
+		transition: .1s;
+		display: block;
+		margin-right: 0;
+		text-indent: -9999px;
+		float: left
+	}
+	.logo:hover {
+		background: url(images/shared/logo-initials-blue.png) no-repeat;
+		transition: .1s
+	}
+	.logo-white:hover {
+		background: url(images/shared/logo-initials-blue.png) no-repeat;
+		transition: .1s
+	}
+	.content {
+		margin-top: 184px
+	}
+	.social .github a {
+		background: url(images/shared/github.png);
+		background-size: 32px 32px;
+		background-repeat: no-repeat
+	}
+	.social .linkedin a {
+		background: url(images/shared/linkedin.png);
+		background-size: 32px 32px;
+		background-repeat: no-repeat
+	}
+	.transparent {
+		background: transparent !important;
+	}
+}
+
+@media only screen and (min-width:1024px) {
+	.logo {
+		margin-right: 200px
+	}
+	header nav {
+		font-size: 18px;
+		font-size: 1.8rem
+	}
+	.header-row {
+		max-width: 1200px;
+		clear: both;
+		margin: 0 auto
+	}
+}
+
+@media only screen and (min-width:1247px) {
+	.logo {
+		height: 80px;
+		width: 407px;
+		background: url(images/shared/logo-black.png) no-repeat
+	}
+	.logo-white {
+		height: 80px;
+		width: 407px;
+		background: url(images/shared/logo-white.png) no-repeat
+	}
+	.logo:hover {
+		height: 80px;
+		width: 407px;
+		background: url(images/shared/logo-blue.png) no-repeat
+	}
+	.logo-white:hover {
+		height: 80px;
+		width: 407px;
+		background: url(images/shared/logo-blue.png) no-repeat
+	}
+}
+
+
+footer {
+	position: sticky;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #333;
+	display: grid;
+	text-align: center;
+	justify-content: center
+}
+
+footer nav {
+	text-align: center;
+	justify-content: center;
+	margin: 0
+}
+
+footer a {
+	text-align: center;
+	justify-content: center;
+	margin: 0
+}
+
+footer ul {
+	margin: 0
+}
+
+footer .social {
+	margin: 0;
+	justify-content: center;
+	text-align: center
+}
+
+footer .social li {
+	display: inline-block;
+	border: 0;
+	margin: 8px 8px 25px 8px;
+	height: 32px
+}
+
+footer .social li a {
+	height: 32px
+}
+
+footer .social li a:hover {
+	height: 32px
+}
+
+footer nav li {
+	display: inline-block;
+	margin: 0 12px 0 12px
+}
+
+footer nav li a:hover,
+header nav li a:hover {
+	color: #BF4040
+}
+
+footer p {
+	margin: 0
+}
+
+.white-fix {
+	color: #fff;
+}
+
+@media only screen and (min-width:1247px) {
+	.logo-footer-fix {
+		position: relative;
+		left: 0!important;
+		align-self: center!important;
+		align-items: center!important;
+		margin-right: 0!important
+	}
+}
+
+.logo-footer-fix {
+	position: relative;
+	left: 17%;
+	align-self: center!important;
+	align-items: center!important;
+	margin-right: 0!important
+}
+
+.copyright {
+	color: #999;
+	padding-bottom: 15px
+}
